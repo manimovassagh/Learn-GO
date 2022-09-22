@@ -8,5 +8,5 @@ func main() {
 	// loop.AnotherForLoop()
 	// conditional.Pow(4, 3, 12)
 	// switcher.SwitchingData()
-
+	// switcher.SwitchDaysInWeek()
 }
