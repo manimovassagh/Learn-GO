@@ -1,7 +1,7 @@
 package main
 
 import (
-	"app/loop"
+	"app/conditional"
 )
 
 func main() {
@@ -9,5 +9,6 @@ func main() {
 	// variables.DefaultVals()
 	// variables.TypeConvertion()
 	// loop.LoopPractice()
-	loop.AnotherForLoop()
+	// loop.AnotherForLoop()
+	conditional.Pow(4, 3, 12)
 }
