@@ -1,7 +1,7 @@
 package main
 
 import (
-	"app/conditional"
+	"app/switcher"
 )
 
 func main() {
@@ -10,5 +10,6 @@ func main() {
 	// variables.TypeConvertion()
 	// loop.LoopPractice()
 	// loop.AnotherForLoop()
-	conditional.Pow(4, 3, 12)
+	// conditional.Pow(4, 3, 12)
+	switcher.SwitchingData()
 }
