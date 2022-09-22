@@ -1,9 +1,5 @@
 package main
 
-import (
-	"app/switcher"
-)
-
 func main() {
 	// variables.Variables()
 	// variables.DefaultVals()
@@ -11,5 +7,6 @@ func main() {
 	// loop.LoopPractice()
 	// loop.AnotherForLoop()
 	// conditional.Pow(4, 3, 12)
-	switcher.SwitchingData()
+	// switcher.SwitchingData()
+
 }
