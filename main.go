@@ -14,5 +14,6 @@ func main() {
 	// switcher.SwitchingData()
 	// switcher.SwitchDaysInWeek()
 	// switcher.SwitchingData()
-	defering.DeferSomeValues()
+	// defering.DeferSomeValues()
+	defering.StackDeferItems()
 }
