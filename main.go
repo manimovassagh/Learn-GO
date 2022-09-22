@@ -1,7 +1,6 @@
 package main
 
-import "app/variables"
-
 func main() {
-	variables.Variables()
+	// variables.Variables()
+	// variables.DefaultVals()
 }
