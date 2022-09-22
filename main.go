@@ -1,7 +1,7 @@
 package main
 
 import (
-	"app/defering"
+	pointerspack "app/pointers-pack"
 )
 
 func main() {
@@ -15,5 +15,6 @@ func main() {
 	// switcher.SwitchDaysInWeek()
 	// switcher.SwitchingData()
 	// defering.DeferSomeValues()
-	defering.StackDeferItems()
+	// defering.StackDeferItems()
+	pointerspack.LearnPointersOne()
 }
