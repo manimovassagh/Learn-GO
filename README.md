@@ -1,2 +1,2 @@
 # Learn-GO
-up to end of range
+up to start of Methods
