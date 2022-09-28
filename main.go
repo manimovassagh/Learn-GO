@@ -1,7 +1,7 @@
 package main
 
 import (
-	rangepack "app/range-pack"
+	"app/maps"
 )
 
 func main() {
@@ -14,11 +14,11 @@ func main() {
 	// switcher.SwitchingData()
 	// switcher.SwitchDaysInWeek()
 	//pointers.PointerPractice()
-
 	// switcher.SwitchingData()
 	// defering.DeferSomeValues()
 	// defering.StackDeferItems()
 	//pointerspack.LearnPointersOne()
 	//pointers.PointerPractice()
-	rangepack.RangeLearning()
+	//rangepack.RangeLearning()
+	maps.MapLearning()
 }
