@@ -1,9 +1,5 @@
 package main
 
-import (
-	"app/maps"
-)
-
 func main() {
 	// variables.Variables()
 	// variables.DefaultVals()
@@ -20,5 +16,7 @@ func main() {
 	//pointerspack.LearnPointersOne()
 	//pointers.PointerPractice()
 	//rangepack.RangeLearning()
-	maps.MapLearning()
+	//maps.MapLearning()
+	//m := functions.FuncLearnA(functions.Multipling)
+
 }
