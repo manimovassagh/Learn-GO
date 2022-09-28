@@ -11,5 +11,6 @@ func PointerPractice() {
 	log.Println("p is now ", p)
 	log.Println("i is now ", i)
 	log.Println("*p is now ", p)
+	log.Println("*i ", *i)
 
 }

@@ -1,5 +1,9 @@
 package main
 
+import (
+	"app/pointers"
+)
+
 func main() {
 	// variables.Variables()
 	// variables.DefaultVals()
@@ -15,5 +19,5 @@ func main() {
 	// defering.DeferSomeValues()
 	// defering.StackDeferItems()
 	//pointerspack.LearnPointersOne()
-
+	pointers.PointerPractice()
 }
