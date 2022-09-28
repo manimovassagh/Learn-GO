@@ -8,4 +8,11 @@ func RangeLearning() {
 	for index, element := range pow {
 		log.Println(index, element)
 	}
+	for index, _ := range pow {
+		log.Println("index ",index)
+	}
+	for _, element := range pow {
+		log.Println("element ",element)
+	}
+
 }
