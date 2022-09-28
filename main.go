@@ -1,5 +1,7 @@
 package main
 
+import "app/pointers"
+
 func main() {
 	// variables.Variables()
 	// variables.DefaultVals()
@@ -9,4 +11,5 @@ func main() {
 	// conditional.Pow(4, 3, 12)
 	// switcher.SwitchingData()
 	// switcher.SwitchDaysInWeek()
+	pointers.PointerPractice()
 }
