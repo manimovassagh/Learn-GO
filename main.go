@@ -1,7 +1,7 @@
 package main
 
 import (
-	"app/pointers"
+	rangepack "app/range-pack"
 )
 
 func main() {
@@ -19,5 +19,6 @@ func main() {
 	// defering.DeferSomeValues()
 	// defering.StackDeferItems()
 	//pointerspack.LearnPointersOne()
-	pointers.PointerPractice()
+	//pointers.PointerPractice()
+	rangepack.RangeLearning()
 }
