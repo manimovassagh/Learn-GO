@@ -14,6 +14,13 @@ const (
 	sunday    = iota + 1
 )
 
+const (
+	EST = -(5 + iota)
+	_
+	MST
+	PST
+)
+
 func CheckIota() {
 	log.Println(monday)
 	log.Println(tuesday)
@@ -22,5 +29,6 @@ func CheckIota() {
 	log.Println(friday)
 	log.Println(saturday)
 	log.Println(sunday)
+	log.Println(EST, MST, PST)
 
 }
