@@ -22,4 +22,5 @@ func CheckIota() {
 	log.Println(friday)
 	log.Println(saturday)
 	log.Println(sunday)
+	log.Println(sunday)
 }
