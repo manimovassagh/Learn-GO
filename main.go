@@ -1,5 +1,7 @@
 package main
 
+import constantlearn "app/constant-learn"
+
 func main() {
 	// variables.Variables()
 	// variables.DefaultVals()
@@ -18,5 +20,6 @@ func main() {
 	//rangepack.RangeLearning()
 	//maps.MapLearning()
 	//m := functions.FuncLearnA(functions.Multipling)
+	constantlearn.CheckIota()
 
 }
