@@ -1,6 +1,11 @@
 package main
 
-import constantlearn "app/constant-learn"
+import (
+	constantlearn "app/constant-learn"
+	"log"
+
+	sgeht "github.com/manimovassagh/Sgeht"
+)
 
 func main() {
 	// variables.Variables()
@@ -21,5 +26,7 @@ func main() {
 	//maps.MapLearning()
 	//m := functions.FuncLearnA(functions.Multipling)
 	constantlearn.CheckIota()
+	r := sgeht.SReq("https://jsonplaceholder.typicode.com/posts")
+	log.Println(r)
 
 }
