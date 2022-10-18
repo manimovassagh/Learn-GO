@@ -1,6 +1,8 @@
 package pointers
 
-import "log"
+import (
+	"log"
+)
 
 func PointerPractice() {
 	log.Println("This is pointer")
