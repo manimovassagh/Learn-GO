@@ -1,10 +1,7 @@
 package main
 
 import (
-	constantlearn "app/constant-learn"
-	"log"
-
-	sgeht "github.com/manimovassagh/Sgeht"
+	escapesequence "app/variables/escape-sequence"
 )
 
 func main() {
@@ -25,8 +22,9 @@ func main() {
 	//rangepack.RangeLearning()
 	//maps.MapLearning()
 	//m := functions.FuncLearnA(functions.Multipling)
-	constantlearn.CheckIota()
-	r := sgeht.SReq("https://jsonplaceholder.typicode.com/posts")
-	log.Println(r)
+	// constantlearn.CheckIota()
+	// r := sgeht.SReq("https://jsonplaceholder.typicode.com/posts")
+	// log.Println(r)
+	escapesequence.EscapeSequence()
 
 }
