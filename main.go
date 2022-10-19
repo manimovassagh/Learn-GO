@@ -26,5 +26,6 @@ func main() {
 	// r := sgeht.SReq("https://jsonplaceholder.typicode.com/posts")
 	// log.Println(r)
 	escapesequence.EscapeSequence()
+	
 
 }
