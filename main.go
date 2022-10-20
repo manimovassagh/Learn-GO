@@ -1,7 +1,7 @@
 package main
 
 import (
-	escapesequence "app/variables/escape-sequence"
+	"app/arrays"
 )
 
 func main() {
@@ -25,7 +25,7 @@ func main() {
 	// constantlearn.CheckIota()
 	// r := sgeht.SReq("https://jsonplaceholder.typicode.com/posts")
 	// log.Println(r)
-	escapesequence.EscapeSequence()
-	
+	// escapesequence.EscapeSequence()
+	arrays.PrintArray()
 
 }
