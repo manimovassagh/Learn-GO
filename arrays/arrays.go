@@ -14,8 +14,8 @@ func PrintArray() {
 	// log.Println(l)
 	// log.Println(a)
 	// log.Println(len(arr))
-	var sliceSample = []string{"sahar"}
-	sliceSample = append(sliceSample, "mani")
+	sliceSample := []string{"sahar"}
+	sliceSample=append(sliceSample, "mani")
 	fmt.Println(sliceSample)
 
 }
