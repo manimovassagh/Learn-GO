@@ -1,7 +1,7 @@
 package main
 
 import (
-	"app/arrays"
+	"app/loop"
 )
 
 func main() {
@@ -26,6 +26,8 @@ func main() {
 	// r := sgeht.SReq("https://jsonplaceholder.typicode.com/posts")
 	// log.Println(r)
 	// escapesequence.EscapeSequence()
-	arrays.PrintArray()
+	//arrays.PrintArray()
+	loop.PrintSliceVim()
+	loop.PrintSliceVim()
 
 }
